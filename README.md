@@ -9,6 +9,8 @@ Configured an admin user in Amazon Web Services IAM with Administrator and Billi
 
 This project demonstrates how to securely manage access in AWS by creating an admin user using Amazon Web Services IAM and implementing Multi-Factor Authentication (MFA) to enhance account security.
 
+<img width="619" height="900" alt="image" src="https://github.com/user-attachments/assets/deaea834-4ea9-47e5-8723-9235e15a9c4f" />
+
 # 🎯Objectives
 Avoid using root account for daily tasks
 Create a secure IAM admin user
@@ -66,6 +68,9 @@ This project showcases practical knowledge of AWS IAM and security best practice
 # 📌Project Overview
 
 This project demonstrates how to monitor AWS resources and track configuration changes using AWS Config integrated with Amazon SNS for real-time email notifications.
+
+<img width="619" height="900" alt="image" src="https://github.com/user-attachments/assets/35ab2ded-9ff2-4bed-bcec-f8b5632fdb8a" />
+
 
 # 🎯Objectives
 Enable resource monitoring and configuration tracking
