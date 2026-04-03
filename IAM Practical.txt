@@ -1,0 +1,33 @@
+Create 1 admin user in IAM(Identity Access Management):
+- Log in to AWS Console by root user or using your email id.
+- Search for “IAM“ Service
+- Click on “Users”
+- Click on “Add users”
+- Give User name e.g., admin or your name
+- Click on  “Enable console Access"
+- Click on “Custom password” and set the password.
+- Require Password Reset: Uncheck the check box.
+- Click on "Next: Permissions” 
+- Set Permissions: Select 3rd option —> “Attach existing policies directly”
+- Select the First permission i.e., “AdministratorAccess”
+- Select the Second permission i.e., “Billing”
+- Add tags: Skip —> Click on “Next: Review"
+- Click on “Create User”
+- Download the. CSV file and log out from the root user. 
+- Now log in using the URL given in the .csv file to check whether a new user is successfully created.
+
+Enable MFA( Install Google Authenticator on your mobile and click on + sign to set up MFA.
+- Log in from a new user that you have created from the given steps.
+- On AWS Console, Search for “IAM“ Service
+- Click on “Users”
+- Click on username “admin or your name"
+Click on the fourth tab, “Security Credentials.” Then click on “Manage” of the Assigned MFA Device.
+- Keep the default radio button checked for “Authenticator App” —> Click on “Continue”
+- Click on “Show QR code” --> Scan this QR code on your mobile with Google Authenticator, Microsoft  Authenticator or any other MFA app. (First, install the MFA app on your mobile)
+- After a successful scan, you will get 6 6-digit code —> Insert that 1st code into “MFA Code 1” 
+- Then wait for 30 seconds to generate the 2nd code —> Insert that 2nd code into “MFA Code 2”
+- Click on “Assign MFA” (If it fails, then rescan the QR code and again provide MFA Codes 1 & 2).
+- Log out and log in again with the same admin user to check whether MFA is working or not.
+
+
+** provide billing access to this admin user.**

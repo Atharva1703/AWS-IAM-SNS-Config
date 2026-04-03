@@ -1,0 +1,31 @@
+AWS Config:
+Enable and disable the Config(resource monitoring and tracking) service. Keep this service running only for 30 minutes. max. (This service is chargeable, so before you log out, make sure the Config service is disabled.)
+
+- Log in to AWS Console by root user or admin user.
+- Select Region “N.Virginia"
+- Search for “Config“ Service
+- Click on “Get started”
+- Keep the default setting and click on a few changes to make the config service work.
+
+﻿  1. Click on the Amazon SNS topic checkbox to enable alerting: “Stream configuration changes and notifications to an Amazon SNS topic.”
+- Click on “Next”
+- AWS Managed Rules: Skip —> Click on “Next" or add one rule of "mfa-enabled" for testing.
+- Click on “Confirm”
+
+SNS:
+- Now Search for “SNS(simple notification service)" in search bar.
+- Click on “Topics” —> Click on “config-topic” —> Click on “Create Subscription”
+- In Protocol, select “Email”.
+- In Endpoint, give your email ID, e.g., “abcd@gmail.com”
+- Click on “Create Subscription”.
+- You must have received a confirmation email from AWS SNS to get Config alerts on the given email ID. —> Open that email and click on “confirm”
+- From here onwards, whatever changes you make to the AWS account will get monitored, and an alert will be sent to your email.
+- To get any alerts on your email, create one EC2 server and delete it after 5min.
+
+Now, disable the Config service and delete the SNS topic and its subscription.
+- Search for “Config“ Service.
+- Click on “Settings”
+- Click on “Edit” —> Uncheck “Enable recording” to Disable config service —> Click on “Save”.
+- For SNS:  Search for “SNS(simple notification service)" in search bar.
+- Click on “Topics” —> Select a topic “config-topic” —> Click on “Delete”
+- Click on “Subscription” —> Select “your subscription with email id” —> Click on “Delete”
