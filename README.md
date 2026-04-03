@@ -2,6 +2,7 @@
 Configured and tested resource monitoring using AWS Config integrated with Amazon SNS for real-time alerts, validating notifications through EC2 activity and optimizing cost by securely disabling services.
 
 Configured an admin user in Amazon Web Services IAM with Administrator and Billing access, enhancing security by implementing Multi-Factor Authentication (MFA) and restricting root account usage.
+<img width="990" height="800" alt="image" src="https://github.com/user-attachments/assets/30018d84-896c-4f53-b47e-f5e4c89cf5a8" />
 
 
 # 🔐AWS IAM Admin User & MFA Setup
