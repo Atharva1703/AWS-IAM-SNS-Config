@@ -93,14 +93,16 @@ Enabled SNS topic for notifications
 <img width="745" height="897" alt="2" src="https://github.com/user-attachments/assets/d7f15dff-8a90-4fe2-9140-fd64f0f22d46" />
 <img width="938" height="742" alt="3" src="https://github.com/user-attachments/assets/a4c832f4-b9ae-4461-ad6b-1bfbbcceb8bc" />
 
-📸 Add Screenshot Here (AWS Config Setup)
 
 2️⃣ Configure SNS Alerts
 Created SNS Topic (config-topic)
 Added subscription with Email protocol
 Confirmed subscription via email
 
-📸 Add Screenshot Here (SNS Subscription Confirmation)
+<img width="1902" height="870" alt="7" src="https://github.com/user-attachments/assets/510d1a33-1e13-4e95-b918-744e2856c727" />
+<img width="1895" height="873" alt="8" src="https://github.com/user-attachments/assets/0c525e60-3506-4503-965c-81bdf88518d7" />
+<img width="1912" height="920" alt="9" src="https://github.com/user-attachments/assets/30610a5c-a4b7-457d-b95d-ff1a74aa7b52" />
+
 
 3️⃣ Validate Monitoring
 Created an EC2 instance
@@ -108,9 +110,7 @@ Observed email notification from SNS
 Deleted EC2 instance after testing
 Verified alert notifications for changes
 
-<img width="1902" height="870" alt="7" src="https://github.com/user-attachments/assets/510d1a33-1e13-4e95-b918-744e2856c727" />
-<img width="1895" height="873" alt="8" src="https://github.com/user-attachments/assets/0c525e60-3506-4503-965c-81bdf88518d7" />
-<img width="1912" height="920" alt="9" src="https://github.com/user-attachments/assets/30610a5c-a4b7-457d-b95d-ff1a74aa7b52" />
+
 <img width="1912" height="965" alt="10" src="https://github.com/user-attachments/assets/0e3b0870-ac47-4f50-aa3a-3fd2e99af14f" />
 <img width="1893" height="902" alt="11" src="https://github.com/user-attachments/assets/1577a2e2-e97f-4efb-aee5-ae60206612a1" />
 <img width="1496" height="756" alt="16" src="https://github.com/user-attachments/assets/846e7f7e-2d5e-42b4-8b6f-de73ffe96a40" />
