@@ -31,13 +31,11 @@ AdministratorAccess
 Billing
 Created user and downloaded credentials (.csv)
 
-📸 Add Screenshot Here (User Creation Step)
 
 2️⃣ Login with IAM User
 Used IAM login URL from CSV file
 Verified successful login with new admin user
 
-📸 Add Screenshot Here (IAM Login Page)
 
 3️⃣ Enable MFA Security
 Navigated to IAM → Users → Security Credentials
@@ -46,13 +44,11 @@ Scanned QR code using authenticator app
 Entered two consecutive OTP codes
 Successfully enabled MFA
 
-📸 Add Screenshot Here (MFA Setup QR Code)
 
 4️⃣ Testing & Validation
 Logged out and logged in again
 Verified MFA prompt and successful authentication
 
-📸 Add Screenshot Here (MFA Login Verification)
 
 # ✅Key Outcomes
 Implemented secure access control using IAM
@@ -115,7 +111,7 @@ Verified alert notifications for changes
 <img width="1893" height="902" alt="11" src="https://github.com/user-attachments/assets/1577a2e2-e97f-4efb-aee5-ae60206612a1" />
 <img width="1496" height="756" alt="16" src="https://github.com/user-attachments/assets/846e7f7e-2d5e-42b4-8b6f-de73ffe96a40" />
 
-📸 Add Screenshot Here (Email Alert Example)
+
 
 4️⃣ Disable Services (Cost Optimization)
 Disabled AWS Config recording
