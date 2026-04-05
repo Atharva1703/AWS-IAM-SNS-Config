@@ -95,9 +95,10 @@ Created SNS Topic (config-topic)
 Added subscription with Email protocol
 Confirmed subscription via email
 
-<img width="1902" height="870" alt="7" src="https://github.com/user-attachments/assets/510d1a33-1e13-4e95-b918-744e2856c727" />
-<img width="1895" height="873" alt="8" src="https://github.com/user-attachments/assets/0c525e60-3506-4503-965c-81bdf88518d7" />
-<img width="1912" height="920" alt="9" src="https://github.com/user-attachments/assets/30610a5c-a4b7-457d-b95d-ff1a74aa7b52" />
+<img width="1902" height="870" alt="7" src="https://github.com/user-attachments/assets/74ca0d6a-47b0-4332-bd64-1dd89b67a0e7" />
+<img width="1895" height="873" alt="8" src="https://github.com/user-attachments/assets/b728b229-3bec-4e7d-87f2-ead774c34f0c" />
+<img width="1912" height="920" alt="9" src="https://github.com/user-attachments/assets/c9028498-019c-4b52-8b4c-95620d9392e8" />
+
 
 
 3️⃣ Validate Monitoring
@@ -108,7 +109,7 @@ Verified alert notifications for changes
 
 
 <img width="1912" height="965" alt="10" src="https://github.com/user-attachments/assets/0e3b0870-ac47-4f50-aa3a-3fd2e99af14f" />
-<img width="1893" height="902" alt="11" src="https://github.com/user-attachments/assets/1577a2e2-e97f-4efb-aee5-ae60206612a1" />
+<img width="1893" height="902" alt="11" src="https://github.com/user-attachments/assets/e6aab4c9-cbd9-44a8-985f-2caf97083030" />
 <img width="1496" height="756" alt="16" src="https://github.com/user-attachments/assets/846e7f7e-2d5e-42b4-8b6f-de73ffe96a40" />
 
 
@@ -117,8 +118,8 @@ Verified alert notifications for changes
 Disabled AWS Config recording
 Deleted SNS topic and subscriptions
 
-<img width="1908" height="965" alt="14" src="https://github.com/user-attachments/assets/dc69a7f3-519a-4ba1-8f30-470596ab7e94" />
-<img width="1901" height="895" alt="13" src="https://github.com/user-attachments/assets/591c5120-071a-4acd-bf1d-2dc5f7dfb997" />
+<img width="1908" height="965" alt="14" src="https://github.com/user-attachments/assets/1fd31165-1ea6-4d8f-b549-f20d0decf7dd" />
+<img width="1901" height="895" alt="13" src="https://github.com/user-attachments/assets/fa33582e-ff82-4285-bdd4-af86059a70b9" />
 
 # ✅Key Outcomes
 Successfully implemented real-time infrastructure monitoring
